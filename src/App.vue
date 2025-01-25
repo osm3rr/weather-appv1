@@ -5,7 +5,7 @@
 
 <template>
   <GetLocation />
-  <WeatherReport />
+  <WeatherReport :coords="{ latitude: 0, longitude: 0 }" />
 </template>
 
 <style scoped>
